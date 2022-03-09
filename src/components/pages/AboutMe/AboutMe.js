@@ -1,5 +1,5 @@
 import React from 'react';
-import Photo from './JasonFlorence.jpg';
+import JasonFlorence from './JasonFlorence.jpg';
 import './AboutMe.css';
 
 export default function AboutMe() {
@@ -8,7 +8,7 @@ export default function AboutMe() {
       <div className="row text-center m-2">
         <h2>About Me</h2>
         <div className="col-sm-3">
-          <img src={Photo} className="rounded img-thumbnail shadow" alt="JasonFlorence" />
+          <img src={JasonFlorence} className="rounded img-thumbnail shadow" alt="JasonFlorence" />
         </div>
         <div className="col-sm-9">
           <p>
