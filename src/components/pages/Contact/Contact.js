@@ -77,9 +77,9 @@ function Contact(props) {
             <button type="submit" className="btn btn-primary" onClick={handleSubmit}>Submit</button>
           </div>
         </form>
-        {/* {errorMessage && (
+        {/* {error && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p>{error}</p>
           </div>
         )} */}
       </div>
