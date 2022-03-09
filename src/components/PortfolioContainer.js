@@ -26,7 +26,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <div className="text-center">
+      <div className="text-center mt-3">
         <h1>Jason Olsen's Coding Porfolio</h1>
       </div>
       {/* We are passing the currentPage from state and the function to update it */}
