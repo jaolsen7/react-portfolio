@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react-portfolio/static/js/main.7c918f2f.js",
+    "main.css": "/react-portfolio/static/css/main.5203b45d.css",
+    "main.js": "/react-portfolio/static/js/main.b35f845d.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/JasonFlorence.jpg": "/react-portfolio/static/media/JasonFlorence.93ce9a3857b80c84db3d.jpg",
+    "static/media/text.jpg": "/react-portfolio/static/media/text.cdadd669023d2ad6768d.jpg",
+    "static/media/crypto.jpg": "/react-portfolio/static/media/crypto.c40ae74fb9175901eb50.jpg",
+    "static/media/network.jpg": "/react-portfolio/static/media/network.f029ab333a8dc4373525.jpg",
+    "static/media/Olsen-Bootcamp-Resume.pdf": "/react-portfolio/static/media/Olsen-Bootcamp-Resume.da8ec246f85adf639b4f.pdf",
+    "static/media/cinema.jpg": "/react-portfolio/static/media/cinema.0d3b7343902c057ef278.jpg",
     "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.7c918f2f.js.map": "/react-portfolio/static/js/main.7c918f2f.js.map",
+    "main.5203b45d.css.map": "/react-portfolio/static/css/main.5203b45d.css.map",
+    "main.b35f845d.js.map": "/react-portfolio/static/js/main.b35f845d.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.7c918f2f.js"
+    "static/css/main.5203b45d.css",
+    "static/js/main.b35f845d.js"
   ]
 }
