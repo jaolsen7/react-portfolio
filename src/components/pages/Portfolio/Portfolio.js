@@ -1,11 +1,9 @@
 import React from 'react';
-import Photo from '../AboutMe/JasonFlorence.jpg';
+
 import cinema from './cinema.jpg';
 import crypto from './crypto.jpg';
 import network from './network.jpg';
 import text from './text.jpg';
-// import network from './network.jpg';
-// import network from './network.jpg';
 
 export default function Portfolio() {
   return (
@@ -13,7 +11,7 @@ export default function Portfolio() {
       <div className="row text-center justify-content-around m-2">
         <h2 className="m-3">My Projects</h2>
 
-        <div className="col-4 mb-3">
+        <div className="col-3 mb-3">
           <div className="card rounded shadow">
             <a href="https://tranquil-garden-33513.herokuapp.com/" target="_blank">
               <img src={text} className="card-img-top" alt="Writing" />
@@ -26,7 +24,7 @@ export default function Portfolio() {
           </div>
         </div>
         
-        <div className="col-4 mb-3">
+        <div className="col-3 mb-3">
           <div className="card rounded shadow">
             <a href="https://flix-factory.herokuapp.com/" target="_blank">
               <img src={cinema} className="card-img-top" alt="FlixFactory" />
@@ -39,33 +37,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="col-4 mb-3">
-          <div className="card rounded shadow">
-            <a href="" target="_blank">
-              <img src={Photo} className="card-img-top" alt="JasonFlorence" />
-            </a>
-            <div className="card-body">
-              <h5 className="card-title">Final Project</h5>
-              <p className="card-text">TODO: Enter info...</p>
-              <a href="" target="_blank">Final Project GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-4 mb-3">
-          <div className="card rounded shadow">
-            <a href="" target="_blank">
-              <img src={Photo} className="card-img-top" alt="JasonFlorence" />
-            </a>
-            <div className="card-body">
-              <h5 className="card-title">Last HW</h5>
-              <p className="card-text">TODO: Enter info...</p>
-              <a href="" target="_blank">Last HW GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-4 mb-3">
+        <div className="col-3 mb-3">
           <div className="card rounded shadow">
             <a href="https://watch.screencastify.com/v/fLOuZSCG7s6mAqMeY2Gc" target="_blank">
               <img src={network} className="card-img-top" alt="SocialNetwork" />
@@ -78,7 +50,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="col-4 mb-3">
+        <div className="col-3 mb-3">
           <div className="card rounded shadow">
             <a href="https://tyleroliveira.github.io/crypto-tracker/" target="_blank">
               <img src={crypto} className="card-img-top" alt="CryptoTracker" />

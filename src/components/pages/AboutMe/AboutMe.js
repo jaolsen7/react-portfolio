@@ -5,12 +5,12 @@ import './AboutMe.css';
 export default function AboutMe() {
   return (
     <div className="AboutMe container-fluid">
-      <div className="row text-center m-2">
+      <div className="row justify-content-center text-center m-2">
         <h2>About Me</h2>
         <div className="col-sm-3">
           <img src={JasonFlorence} className="rounded img-thumbnail shadow" alt="JasonFlorence" />
         </div>
-        <div className="col-sm-9">
+        <div className="col-sm-6">
           <p>
           After completing a neurobiology degree at UC Berkeley, I jumped into a Master's of Education
           program at UCSD because I really wanted to share my love of learning while also making an impact.

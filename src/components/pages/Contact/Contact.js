@@ -46,7 +46,7 @@ function Contact(props) {
               onChange={handleChange}
               type="text"
               placeholder="Type here..."
-            />
+            required/>
             <div className="form-text">Please enter first and last name.</div>
           </div>
           <div className="mb-3">
@@ -58,7 +58,7 @@ function Contact(props) {
             onChange={handleChange}
             type="email"
             placeholder="Type here..."
-            />
+            required/>
             <div className="form-text">I will never share your email with anyone else.</div>
           </div>
           <div className="mb-3">
@@ -70,7 +70,7 @@ function Contact(props) {
               onChange={handleChange}
               type="message"
               placeholder="Type here..."
-            />
+            required/>
             <div className="form-text">Please try to be constructive and/or positive :)</div>
           </div>
           <div className="mb-3 d-grid gap-2">
