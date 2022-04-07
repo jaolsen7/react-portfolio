@@ -1,34 +1,17 @@
 import React from 'react';
-import bootcampResume from './Olsen-Bootcamp-Resume.pdf';
+import bootcampResume from './Olsen-Coding-Resume-4-5-22.pdf';
 
 export default function Resume() {
   return (
     <div className="Resume container-fluid">
       <div className="row justify-content-center m-2">
-        <h2 className="text-center text-decoration-underline">Skills/Languages Included in Resume</h2>
-        <a className="text-center" href={bootcampResume} download>(Download a copy)</a>
-        <ul className="d-flex flex-column w-25 align-items-center m-3 border border-dark border-3">
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>Javascript ES6+</li>
-        <li>JQuery</li>
-        <li>TypeScript</li>
-        <li>React</li>
-        <li>Bootstrap</li>
-        <li>MySQL</li>
-        <li>Sequelize</li>
-        <li>NoSQL</li>
-        <li>MongoDB</li>
-        <li>Mongoose</li>
-        <li>Express</li>
-        <li>NodeJS</li>
-        <li>Handlebars</li>
-        <li>Inquirer</li>
-        <li>Insomnia</li>
-        <li>GraphQL</li>
-        <li>Jest</li>
-        <li>MERN</li>
-      </ul>
+          <h4  className="col-12 text-center p-3">
+          <a href={bootcampResume} download>(Download my Resume)</a>
+          </h4>
+        <div className="col-6 p-3 border border-dark">
+          <h2 className="text-center text-decoration-underline">Professional Brand Statement</h2>
+          <p>Web developer with a Certificate in Full Stack Web Development from UC San Diego Extension, where I acquired knowledge and skills in full-stack web technologies such as, but not limited to: mobile-responsive HTML/CSS/JavaScript, Node.js, Express.js, MySQL and React.js. As a previous high school science teacher, I have high initiative and can always be trusted to get the job done. I am an effective communicator/collaborator with all, yet am also autonomous and independent. I am an organized and methodical problem-solver, as I have a background in neurobiological research, and I am passionate about having a positive impact on the lives of others. All in all, my educational and professional background, combined with my positive attitude and grit, would make me a smart addition to any team or organization.</p>
+        </div>
       </div>
     </div>
   );

@@ -37,7 +37,7 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage function which will return a component  */}
       {renderPage()}
-      <footer className="text-center">
+      <footer className="text-center p-3">
         ♦ <a href="json.olsen@gmail.com">json.olsen@gmail.com </a>
         ♦ <a href="tel:805-748-4171">(805)748-4171 </a>
         ♦ <a href="https://github.com/jaolsen7">GitHub </a>
