@@ -3,7 +3,7 @@ import React from 'react';
 // Destructuring props
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs mx-5 px-5">
       <li className="nav-item">
         <a
           href="#aboutme"
@@ -20,15 +20,6 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
           Portfolio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
         </a>
       </li>
       <li className="nav-item">

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Portfolio from './pages/Portfolio';
 import AboutMe from './pages/AboutMe';
-import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
@@ -15,19 +14,24 @@ export default function PortfolioContainer() {
         return <AboutMe />;
       case 'Portfolio':
         return <Portfolio />;
-      case 'Contact':
-        return <Contact />;
       default:
         return <Resume />;
     }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
-
+  
+  const styles = {
+    h1: {
+      fontSize: "50px",
+      fontWeight: "bold",
+      fontFamily: "cursive"
+    }
+  }
   return (
     <div>
       <div className="text-center mt-3">
-        <h1>Jason Olsen's Coding Porfolio</h1>
+        <h1 style={styles.h1}>Jason Olsen's Coding Porfolio</h1>
       </div>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
