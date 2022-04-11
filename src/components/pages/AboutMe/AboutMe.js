@@ -12,15 +12,17 @@ export default function AboutMe() {
         <div className="card col-sm-6 mb-3 py-3 px-3 border-5 border-dark">
           <h2 >About Me</h2>
           <p className="card-text">
-          After completing a neurobiology degree at UC Berkeley, I jumped into a Master's of Education
-          program at UCSD because I really wanted to share my love of learning while also making an impact.
-          However, once in the classroom, I soon realized that being a high school teacher is not fit for me.
-          I was teaching 4 different grade levels and 3 different subjects in 2 different languages.
-          This made for 1 very stressed out teacher and I quickly grew tired of the persona I had to put on each day.
+          I have always loved learning about the world, especially through the lens of science and math, which is why
+          I completed a neurobiology degree at UC Berkeley. During these wonderful years, I worked as a research assistant
+          in a lab that studied sleep and wake neural circuits. While I enjoyed research and am still passionate for the subject,
+          I wanted to work in a more collaborative and compassionate setting, so I entered into the Master's of Education program at UCSD
+          where I shared my love of learning while also making an impact on others. Although I completed the program, I soon realized
+          that being a high school teacher is not fit for me. I love helping others learn and grow, but I didn't feel like myself on campus.
+          In a way, it felt like I was acting and I didn't love the feeling that I wasn't 100% secure with my career choice.
           </p>
           <p className="card-text">
           Luckily, friends and even strangers suggested I look into software/web development and I'm so glad that I did!
-          I signed up for the UCSD Extension Coding Bootcamp and am in love with coding already. :)
+          I completed the UCSD Extension Coding Bootcamp in March and am in love with coding already.
           Not only does it involve learning everyday, problem-solving, and expressing my creativity, but it also
           honestly challenges me. I look forward to coding each day and get excited when thinking about its potential!
           All in all, I'm just really determined to learn more, work hard, and find out how I can make the world better through software!
